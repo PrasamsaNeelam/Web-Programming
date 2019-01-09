@@ -1,0 +1,48 @@
+div {
+		border: 1px solid;
+	}
+	.container{
+		background-color: lightblue;
+	}
+	.page-header{
+		background-color: royalblue;
+		color:white;
+	}	
+	.padding {
+		padding-left: 70px;
+	}
+	.dash{
+		border: 0 none;
+		border-top: 2px dashed #322f32;
+		background: black;
+		height:0;
+    }
+    .color {
+    	background-color: #efdd80;
+    	color: #655842;
+    }
+    .color1 {
+    	background-color: #b0d6a0;
+    }
+    .speech-bubble {
+	position: relative;
+	background: #efdd80;
+	width: 50px;
+	border-radius: .4em;
+	}
+
+	.speech-bubble:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		width: 0;
+		height: 0;
+		border: 20px solid transparent;
+		/*border-top-color: #00aabb;*/
+		border-top-color: #efdd80;
+		border-bottom: 0;
+		border-left: 0;
+		margin-left: -10px;
+		margin-bottom: -20px;
+	}
