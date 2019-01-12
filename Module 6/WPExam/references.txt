@@ -1,0 +1,7 @@
+https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_circle
+
+https://www.w3schools.com/bootstrap/bootstrap_ref_css_images.asp
+
+https://www.w3schools.com/css/css3_shadows.asp
