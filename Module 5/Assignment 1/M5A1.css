@@ -1,0 +1,20 @@
+div {
+	font-size: 15px;
+}
+
+.container{
+	background-color: lightblue;
+	border: 2px solid;
+}
+.page-header{
+	background-color: royalblue;
+	color:white;
+	border: 1px solid;
+}	
+.padding {
+	padding-left: 70px;
+}
+
+.jumbotron {
+	border: 1px solid;
+}
