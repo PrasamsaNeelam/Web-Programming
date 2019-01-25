@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check me!</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-12" style="text-align: center;">
+		<br>
+		<h1>Details about you</h1>
+		<br>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col-md-12 col-lg-12 col-xs-12 col-sm-12">
+		<hr style="background-color: black">
+		<br>
+		<form name = "form1" action="" id = "myform">
+		<h4><label for="name">Name: </label> <input type="text" placeholder = "Enter your name" id = "name" name="name"></h4>
+		<br>
+		<br>
+		<h4><label for="comment">Comment: </label> <input type="text" placeholder = "Enter your comment" id = "comment" name="comment"><br>
+			<!-- <textarea cols="100" rows="5" id="save" placeholder = "Enter your comment" name="comments"></textarea></h4> -->
+		<br>
+		<br>
+		<h4><label for="pswd">Secret Key: </label> <input type="password" placeholder = "Enter the password" id = "pswd" name="pswd"></h4>
+		<br>
+		<br>
+		<h4><button type="button" id = "button" value = "save" onclick="valid()">Post Comment</button></h4>
+		<!-- <input type="button" value="Show data" onclick="show()"> <br> -->
+		<br>
+		</form>
+		<p id = "check"></p>
+	</div>
+	</div>
+</div>
+
+	<script type="text/javascript" src="validate.js"></script>
+</body>
+</html>
